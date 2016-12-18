@@ -1,1 +1,1 @@
-# MATH-2450-Foundations-of-Mathematics-I-Discrete-Mathematics
+# CS 2148 Discrete Structures

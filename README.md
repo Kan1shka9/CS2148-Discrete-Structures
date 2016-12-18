@@ -1,1 +1,1 @@
-# CS 2148 Discrete Structures
+# CS2148 Discrete Structures

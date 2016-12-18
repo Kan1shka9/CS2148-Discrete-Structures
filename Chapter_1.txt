@@ -1,0 +1,197 @@
++-------------------------+----------------------------------+---------------------------------------------------------------------------+
+|          Index          |                                  |                                                                           |
++-------------------------+----------------------------------+---------------------------------------------------------------------------+
+| 1.) Variables           |                                  |                                                                           |
+| 2.) Kinds of statements |                                  |                                                                           |
+|                         | Universal statements             | for all, every, all                                                       |
+|                         | Conditional statements           | if-then                                                                   |
+|                         | Existential statements           | there is                                                                  |
+|                         | Universal Conditional Statements | for all, every, all / if-then                                             |
+|                         | Universal Existential Statements | for all, every, all / there is                                            |
+|                         | Existential Universal Statements | there is / for all, every, all                                            |
+| 3.) Set                 |                                  |                                                                           |
+|                         | Set-Roster Notation              | {1, 2, 3, ..., 100}                                                       |
+|                         |                                  | R -> set of real numbers                                                  |
+|                         |                                  | Z -> set of all integers                                                  |
+|                         |                                  | Q -> set of all rational numbers, or quotients of integers                |
+|                         |                                  | N -> set of natural numbers                                               |
+|                         | Set-Builder Notation             | {x ∈ S | P(x)} , {x ∈ R | −2<x<5}                                         |
+|                         | Subset                           |                                                                           |
+|                         | Proper Subset                    |                                                                           |
+|                         | Cartesian Products               | A = {1,2,3}, B = {u,v} then A × B = {(1,u),(2,u),(3,u),(1,v),(2,v),(3,v)} |
+|                         | Ordered Pairs                    | (a,b) = (c,d) means that a=c and b=d                                      |
+|                         | Cartesian Plane                  | Coordinate System                                                         |
+| 4.) Relation            |                                  |                                                                           |
+| 5.) Function            | 2 rules                          |                                                                           |
+| 6.) Function Machine    |                                  | Input(x) -> Function Machine -> Output(f(x))                              |
++-------------------------+----------------------------------+---------------------------------------------------------------------------+
+
+🕶 Variable
+Placeholder
+
+Example 1
+Use variables to rewrite the following sentences more formally.
+a. Are there numbers with the property that the sum of their squares equals the square of their sum?
+a^2 + b^2 = (a+b)^2
+b. Given any real number, its square is nonnegative.
+Given any real number r^2 is nonnegative
+
+🕶 Kinds of Statements
+1.) Universal statement
+All positive numbers are greater than zero
+"for all"
+"every"
+"all"
+
+2.) Conditional statement 
+If 378 is divisible by 18, then 378 is divisible by 6
+"if-then"
+
+3.) Existential statement
+There is a prime number that is even
+"there is"
+
+4.) Universal Conditional Statements
+Will have "for all" and "if-then"
+For all animals a, if a is a dog, then a is a mammal.
+For all real numbers x, if x is nonzero then x^2 is positive.
+Universal conditional statements can be rewritten as purely universal or purely conditional
+If a is a dog, then a is a mammal. -> Purely Conditional
+For all dogs a, a is a mammal. -> Purely Universal
+
+5.) Universal Existential Statements
+Universal because First part says that a certain property is true for all objects of a given type and 
+Existential because its Second part asserts the existence of something
+Every real number has an additive inverse.
+All real numbers have additive inverses.
+For all real numbers r, there is an additive inverse for r.
+For all real numbers r, there is a real number s such that s is an additive inverse for r.
+When r is positive, s is negative, when r is negative, s is positive, and when r is zero, s is also zero.
+
+6.) Existential Universal Statements
+Existential because its First part asserts that a certain object exists
+Universal because Second part says that object satisfies a certain property for all things of a certain kind
+There is a positive integer that is less than or equal to every positive integer
+There is a person in my class who is at least as old as every person in my class
+
+🕶 Set
+Collection of elements
+C is the set of all countries that are currently in the United Nations, then the United States is an element of C
+I is the set of all integers from 1 to 100, then the number 57 is an element of I
+x ∈ S -> x is an element of S
+
+1.) Set roster notation
+{1,2,3}
+{1, 2, 3, ..., 100} -> set of all integers from 1 to 100
+{1, 2, 3, . . .} -> an infinite set
+
+a. Let A = {1,2,3}, B = {3,1,2}, and C = {1,1,2,3,3,3}. 
+What are the elements of A, B, and C? How are A, B, and C related?
+A, B, and C have exactly the same three elements: 1, 2, and 3. Therefore, A, B, and C are simply different ways to represent the same set.
+
+b. Is {0} = 0?
+{0} not equal to 0 because {0} is a set with one element, namely 0, whereas 0 is just the symbol that represents the number zero
+
+c. How many elements are in the set {1, {1}}?
+Two elements: 1 and the set whose only element is 1.
+
+d. For each nonnegative integer n, let Un = {n, −n}. Find U1, U2, and U0.
+U1 = {1,−1}, U2 = {2,−2}, U0 = {0,−0} = {0,0} = {0}.
+
+R -> set of all real numbers
+Real Numbers (3 parts) -> +ve real numbers, -ve real numbers, 0
+Z -> set of all integers (does not include 0)
+Q -> set of all rational numbers, or quotients of integers
+N -> set of all natural numbers
+superscript + or − or the letters nonneg indicates that only the positive or negative or nonnegative elements of the set
+
+Discrete Mathematics
+The integers are all separated from each other, the set of integers is called discrete
+
+Continuous Vs Discrete Mathematics
+
+2.) Set-builder notation
+The set of all elements x in S such that P(x) is true
+{x ∈ S | P(x)}
+{ -> set of all
+| -> such that
+{x | P(x)}
+the set of all x such that P(x)
+
+3.) Subsets
+If A and B are sets, then A is called a subset of B, written A ⊆ B, if, and only if, every element of A is also an element of B.
+Symbolically:
+A ⊆ B means that For all elements x, if x ∈ A then x ∈ B.
+For a set A not to be a subset of a set B means that there is at least one element of A that is not an element of B.
+A ⊄ B means that For all elements x, if x ∈ A then x ∉ B.
+All sets are subsets of themselves
+
+4.) Proper Subset
+Let A and B be sets. A is a proper subset of B if, and only if, every element of A is in B but there is at least one element of B that is not in A.
+
+0 is not an integer (Z)
+
+Distinction between ∈ and ⊆
+∈ -> element of / belongs to
+⊆ -> subset of
+page 10 -> Example 1.2.4
+
+5.) Cartesian Products (just a product)
+Given sets A and B, the Cartesian product of A and B, denoted A × B and read “A cross B,” is the set of all ordered pairs (a,b), where a is in A and b is in B. Symbolically:
+A × B = {(a, b) | a ∈ A and b ∈ B} 
+
+A = {1,2,3} and B = {u,v}
+A × B = {(1,u),(2,u),(3,u),(1,v),(2,v),(3,v)}
+B × A = {(u,1),(u,2),(u,3),(v,1),(v,2),(v,3)}
+B × B = {(u,u),(u,v),(v,u),(v,v)}
+Total number of elements in A x B is {number of elements in A} times {number of elements in B}
+Given sets A and B, the Cartesian product A × B is the set of all ordered pairs (a,b) where a is in A and b is in B
+
+6.) Ordered Pairs
+Given elements a and b, the symbol (a, b) denotes the ordered pair consisting of a and b together with the specification that a is the first element of the pair and b is the second element. Two ordered pairs (a, b) and (c, d) are equal if, and only if, a = c and b = d.
+Symbolically:
+(a,b) = (c,d) means that a=c and b=d
+Is (1,2)=(2,1)?
+No. By definition of equality of ordered pairs,
+(1, 2) = (2, 1) if, and only if, 1 = 2 and 2 = 1.
+
+Cartesian Plane -> Coordinate System
+
+🕶 Relation
+Let A and B be sets. A relation R from A to B is a subset of A × B. 
+Given an ordered pair (x, y) in A×B, x is related to y by R, written x R y, if, and only if, (x, y) is in R. 
+set A is called the domain of R
+set B is called its co-domain
+x R y means that (x,y) ∈ R.
+1.) Relation as a subset
+2.) Circle relation
+3.) Arrow Diagrams of Relations
+
+Function
+Definition 1:-
+A function F from a set A to a set B is a relation with domain A and co-domain B that satisfies the following two properties:
+1. For every element x in A, there is an element y in B such that (x, y) ∈ F. 
+2. For all elements x in A and y and z in B, if (x,y) ∈ F and (x,z) ∈ F, then y = z.
+
+Definition 2:-
+A relation F from A to B is a function if, and only if:
+1. Every element of A is the first element of an ordered pair of F. 
+2. No two distinct ordered pairs in F have the same first element.
+
+1.) Functions and Relations on Finite Sets
+2.) Functions and Relations on Sets of Real Numbers
+
+Function Machines
+Input -> x
+Function Machine 
+Output -> f(x)
+
+Input(x) -> Function Machine -> Output(f(x))
+Input -> Function Machine -> Output
+x -> Function Machine -> f(x)
+
+A relation is a subset of a Cartesian product and a function is a special kind of relation.
+Specifically, if f and g are functions from a set A to a set B, then
+f = { (x,y) ∈ A×B | y = f(x) } and g = { (x,y) ∈ A×B | y = g(x) }
+
+1.) Equality of Functions

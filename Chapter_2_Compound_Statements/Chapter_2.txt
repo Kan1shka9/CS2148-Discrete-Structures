@@ -1,0 +1,495 @@
++------------------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
+|                     Index                      |                                                     |                                                              |
++------------------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
+| 1.) Logic                                      |                                                     |                                                              |
+| 2.) Statement                                  | either true or false but not both                   |                                                              |
+| 3.) Compound Statement                         | ~ / ^ / ∨                                           |                                                              |
+| 4.) Truth Values                               |                                                     |                                                              |
+|                                                | negation                                            |                                                              |
+|                                                | conjunction                                         |                                                              |
+|                                                | disjunction                                         |                                                              |
+|                                                | Exclusive Or (XOR)                                  |                                                              |
+| 5.) Logical Equivalence                        |                                                     |                                                              |
+|                                                | Double Negative Property                            | ∼(∼p) ≡ p                                                    |
+|                                                | Nonequivalence                                      |                                                              |
+|                                                | Negations of And and Or: De Morgan’s Laws           | ∼( p ∧ q ) ≡ ∼ p ∨ ∼q                                        |
+| 6.) Tautology                                  |                                                     |                                                              |
+| 7.) Contradiction                              |                                                     |                                                              |
+| 8.) Conditional Statements                     | p → q                                               | T F -> F (rest all are T)                                    |
+|                                                | A Conditional Statement with a False Hypothesis     | If 0 = 1 then 1 = 2. as a whole is true                      |
+|                                                | Truth Table for p ∨ ∼q → ∼ p                        |                                                              |
+|                                                | Logical Equivalences Involving →                    | p∨q → r ≡ (p→r) ∧ (q→r)                                      |
+|                                                | Representation of If-Then As Or                     | p → q ≡ ∼p ∨ q                                               |
+|                                                | The Negation of a Conditional Statement             | ∼(p → q) ≡ p ∧ ∼q                                            |
+|                                                | The Contrapositive of a Conditional Statement       | p → q is ∼q → ∼p                                             |
+|                                                | The Converse and Inverse of a Conditional Statement |                                                              |
+|                                                |                                                     | The converse of p → q is q → p                               |
+|                                                |                                                     | The inverse of p → q is ∼p → ∼q                              |
+|                                                | Only If and the Biconditional                       | p only if q (Opposite of XOR)                                |
+|                                                | Necessary Conditions                                | if r then s                                                  |
+|                                                | Sufficient Conditions                               | if not r then not s                                          |
+| 9.) Valid and Invalid Arguments                |                                                     |                                                              |
+|                                                | Common valid arguments                              |                                                              |
+|                                                |                                                     | Modus Ponens                                                 |
+|                                                |                                                     | Modus Tollens                                                |
+|                                                | Additional Valid Argument Forms                     |                                                              |
+|                                                |                                                     | Generalization                                               |
+|                                                |                                                     | Specialization                                               |
+|                                                |                                                     | Elimination                                                  |
+|                                                |                                                     | Transitivity                                                 |
+|                                                |                                                     | Proof by Division into Cases                                 |
+|                                                | Fallacies                                           |                                                              |
+|                                                |                                                     | Converse Error                                               |
+|                                                |                                                     | Inverse Error                                                |
+|                                                |                                                     | A Valid Argument with a False Premise and a False Conclusion |
+|                                                |                                                     | An Invalid Argument with True Premises and a True Conclusion |
+|                                                | Contradiction Rule                                  |                                                              |
+| 10.) Digital Logic Circuits                    |                                                     |                                                              |
+| 11.) Number Systems and Circuits for Addition  |                                                     |                                                              |
++------------------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+https://www.youtube.com/watch?v=vmNa2G6rXfY
+Statement
+statement that is true or false but not both
+
+Compound Statement
+Statement that is built using symbols and other statements
+Eg:
+If Jake is a math major and Jake is an engineering major then Jake will take discrete math
+
+Argument
+Sequence of statements that is aimed at demonstrating the truth of an assertion
+2 parts
+-> Premise
+Preceding statements to a conclusion
+-> Conclusion
+Assertion at the end of a sequence of statements
+
+Compound Statement
+If Jake is a math major and Jake is an engineering major then Jake will take discrete math
+Premise 1
+If Jake is a math major
+Premise 2
+Jake is an engineering major
+Conclusion
+Jake will take discrete math
+
+Symbols and Notation for building Compound Statements
+p = Jake is a math major
+q = Jake is an engineering major
+r = Jake will take discrete math
+~ = Not
+^ = And / But
+V = Or
+p ^ q then r
+If Jake is a math major and Jake is an engineering major then Jake will take discrete math
+~p ^ q then r
+If Jake is not a math major and Jake is an engineering major then Jake will take discrete math
+p V q then r
+If Jake is a math major or Jake is an engineering major then Jake will take discrete math
+
+Order of Operations
+~
+V or ^
++----------------------------------------------------------------------------------------------------------------------------+
+
+1.) Logic
+Science of reasoning
+
+The central concept of deductive logic is the concept of argument form. 
+An argument is a sequence of statements aimed at demonstrating the truth of an assertion. 
+The assertion at the end of the sequence is called the conclusion, and the preceding statements are called premises. 
+To have confidence in the conclusion that you draw from an argument, you must be sure that the premises are acceptable on their own merits or follow from other statements that are known to be true.
+
+2.) Statements
+A statement (or proposition) is a sentence that is true or false but not both.
+
+3.) Compound Statements
+~ -> not -> (~p -> negation of p)
+^ -> and -> (p ^ q -> conjunction of p and q)
+∨ -> or -> (p ∨ q -> disjunction of p and q)
+
+but -> and
+neither nor -> ~
+
+p but q -> p and q 
+neither p nor q -> ∼p and ∼q.
+
+It is not hot but it is sunny.
+~h ^ s
+It is neither hot nor sunny.
+~h ^ ~s
+
+x ≤ a means x < a or x = a
+a ≤ x ≤ b means a ≤ x and x ≤ b
+
+And, Or, Inequality
+Suppose x is a particular real number. Let p,q, and r symbolize “0 < x,” “x < 3,” and “x = 3,” respectively. 
+Write the following inequalities symbolically:
+a. x≤3 
+b. 0<x<3 
+c. 0<x≤3 
+Solution :-
+x -> real number
+p -> 0 < x
+q -> x < 3
+r -> x = 3
+a.) x ≤ 3 -> q ∨ r
+b.) 0 < x < 3 -> p ^ q
+c.) 0 < x ≤ 3 -> p ^ (q ∨ r)
+
+4.) Truth Values
+
+Truth Table for ∼p (negation)
++----+----+
+| p  | ∼p |
++----+----+
+| T  | F  |
+| F  | T  |
++----+----+
+If p is a statement variable, the negation of p is “not p” or “It is not the case that p” and is denoted ∼p. It has opposite truth value from p: if p is true, ∼p is false; if p is false, ∼p is true.
+
+Truth Table for p ∧ q (and) (conjunction)
++---+---+-----+
+| p | q | p∧q |
++---+---+-----+
+| T | T | T   |
+| T | F | F   |
+| F | T | F   |
+| F | F | F   |
++---+---+-----+
+If p and q are statement variables, the conjunction of p and q is “p and q,” denoted p ∧ q. It is true when, and only when, both p and q are true. If either p or q is false, or if both are false, p ∧ q is false.
+
+Truth Table for p ∨ q (or) (disjunction)
++----+---+-----+
+| p  | q | p∨q |
++----+---+-----+
+| T  | T | T   |
+| T  | F | T   |
+| F  | T | T   |
+| F  | F | F   |
++----+---+-----+
+If p and q are statement variables, the disjunction of p and q is “p or q,” denoted p ∨ q. It is true when either p is true, or q is true, or both p and q are true; it is false only when both p and q are false.
+
+Statement Form
+A statement form (or propositional form) is an expression made up of statement variables (such as p,q, and r) and logical connectives (such as ∼,∧, and ∨) that becomes a statement when actual statements are substituted for the component state- ment variables.
+Example:- 
+∼p ∨ q
+( p ∨ q ) ∧ ∼( p ∧ q )
+( p ∧ q ) ∨ r
+
+Truth Table for Exclusive Or
+p ⊕ q or p XOR q
++----+----+--------+--------+------------+------------------------+
+| p  | q  | p ∨ q  | p ∧ q  | ∼( p ∧ q ) | ( p ∨ q ) ∧ ∼( p ∧ q ) |
++----+----+--------+--------+------------+------------------------+
+| T  | T  | T      | T      | F          | F                      |
+| T  | F  | T      | F      | T          | T                      |
+| F  | T  | T      | F      | T          | T                      |
+| F  | F  | F      | F      | T          | F                      |
++----+----+--------+--------+------------+------------------------+
+Shortcut:
+same -> off -> F
+different -> on -> T
+
+Number of possibilities -> 2 ^ number of variables
+
+5.) Logical Equivalence
++---+---+-----+-----+
+| p | q | p∧q | q∧p |
++---+---+-----+-----+
+| T | T | T   | T   |
+| T | F | F   | F   |
+| F | T | F   | F   |
+| F | F | F   | F   |
++---+---+-----+-----+
+p ∧ q and q ∧ p always have the same truth values, so they are logically equivalent
+
+Testing Whether Two Statement Forms P and Q Are Logically Equivalent
+1. Construct a truth table with one column for the truth values of P and another column for the truth values of Q.
+2. Check each combination of truth values of the statement variables to see whether the truth value of P is the same as the truth value of Q.
+a. If in each row the truth value of P is the same as the truth value of Q, then P and Q are logically equivalent.
+b. If in some row P has a different truth value from Q, then P and Q are not logically equivalent.
+
+a.) Double Negative Property: ∼(∼p) ≡ p
++---+----+-------+
+| p | ∼p | ∼(∼p) |
++---+----+-------+
+| T | F  | T     |
+| F | T  | F     |
++---+----+-------+
+p and ∼(∼p) always have the same truth values, so they are logically equivalent
+
+b.) Nonequivalence
+Show that the statement forms ∼(p ∧ q) and ∼p ∧ ∼q are not logically equivalent.
+a.) Using truth tables
++---+---+-----+-----+-----+------------+---------+
+| p | q | ∼p  | ∼q  | p∧q | ∼( p ∧ q ) | ∼p ∧ ∼q |
++---+---+-----+-----+-----+------------+---------+
+| T | T | F   | F   | T   | F          | F       |
+| T | F | F   | T   | F   | T          | F       |
+| F | T | T   | F   | F   | T          | F       |
+| F | F | T   | T   | F   | T          | T       |
++---+---+-----+-----+-----+------------+---------+
+∼(p ∧ q) and ∼p ∧ ∼q have different truth values in rows 2 and 3, so they are not logically equivalent
+b.) Using Example
+Let p -> 0 < 1
+Let q -> 1 < 0
+Then 
+∼(p ∧ q)
+~ ( (0 < 1) and (1 < 0) )
+~ (False)
+True
+
+∼p ∧ ∼q
+~(0 < 1) and ~(1 < 0)
+False and True
+False
+Hence both the statements are not logically equivalent
+
+c.) Negations of And and Or: De Morgan’s Laws
+∼( p ∧ q ) ≡ ∼ p ∨ ∼q
+∼( p ∨ q ) ≡ ∼ p ∧ ∼q
++---+---+----+----+-----+------------+----------+
+| p | q | ∼p | ∼q | p∧q | ∼( p ∧ q ) | ∼ p ∨ ∼q |
++---+---+----+----+-----+------------+----------+
+| T | T | F  | F  | T   | F          | F        |
+| T | F | F  | T  | F   | T          | T        |
+| F | T | T  | F  | F   | T          | T        |
+| F | F | T  | T  | F   | T          | T        |
++---+---+----+----+-----+------------+----------+
+∼(p ∧ q) and ∼p ∨ ∼q always have the same truth values, so they are logically equivalent
+
+De Morgan’s Laws
+The negation of an and statement is logically equivalent to the or statement in which each component is negated.
+The negation of an or statement is logically equivalent to the and statement in which each component is negated.
+
+<see image De_Morgans_equivalence.jpeg>
+
+d.) Inequalities and De Morgan’s Laws
+Use De Morgan’s laws to write the negation of −1 < x ≤ 4.
+
+e.) When you apply De Morgan’s laws, you must have complete statements on either side of each "and" and on either side of each "or".
+
+6.) Tautology
+A tautology is a statement form that is always true regardless of the truth values of the individual statements substituted for its statement variables. A statement whose form is a tautology is a tautological statement.
+
+7.) Contradiction
+A contradication is a statement form that is always false regardless of the truth values of the individual statements substituted for its statement variables. A statement whose form is a contradication is a contradictory statement.
+
+Tautologies and Contradictions
+Show that the statement form p ∨ ∼p is a tautology and that the statement form p ∧ ∼p is a contradiction.
++---+----+--------+--------+
+| p | ∼p | p ∨ ∼p | p ∧ ∼p |
++---+----+--------+--------+
+| T | F  | T      | F      |
+| F | T  | T      | F      |
++---+----+--------+--------+
+
+Logical Equivalence Involving Tautologies and Contradictions
+If t is a tautology and c is a contradiction, show that p ∧ t ≡ p and p ∧ c ≡ c.
++---+---+-----+---+---+-----+
+| p | t | p∧t | p | c | p∧c |
++---+---+-----+---+---+-----+
+| T | T | T   | T | F | F   |
+| F | T | F   | F | F | F   |
++---+---+-----+---+---+-----+
+
+<see image Logical_Equivalences.jpeg>
+
+Verify the logical equivalence 
+∼(∼p∧q) ∧ (p∨q) ≡ p
+Solution
+∼(∼p∧q) ∧ (p ∨ q)
+(p v ~q) ^ (p v q) -> by DeMorgan’s laws and by the double negative law
+p v (~q ^ q) -> by the distributive law
+p v c -> by the negation law and identity law
+p
+
+8.) Conditional Statements (TFF)
+p → q
+p is called the hypothesis
+q is called the conclusion
+Truth Table for p → q
++---+---+-----+
+| p | q | p→q |
++---+---+-----+
+| T | T | T   |
+| T | F | F   |
+| F | T | T   |
+| F | F | T   |
++---+---+-----+
+If p and q are statement variables, the conditional of q by p is “If p then q” or “p implies q” and is denoted p → q. It is false when p is true and q is false; otherwise it is true.
+
+a.) A Conditional Statement with a False Hypothesis
+Consider the statement:
+As strange as it may seem, since the hypothesis of this statement is false, the statement
+If 0 = 1 then 1 = 2. as a whole is true.
+Solution:
+For example, if 0 = 1, then, by adding
+1 to both sides of the equation, you can deduce that 1 = 2.
+
+b.) Truth Table for p ∨ ∼q → ∼ p
+
+c.) Logical Equivalences Involving →
+Division into Cases : Showing that p∨q → r ≡ (p→r) ∧ (q→r)
+
+d.) Representation of If-Then As Or
+p → q ≡ ∼p ∨ q
+
+e.) The Negation of a Conditional Statement
+∼(p → q) ≡ p ∧ ∼q
+Proof
+∼(p → q)
+∼(∼p ∨ q)
+p ^ ~q
+
+f.) The Contrapositive of a Conditional Statement
+p → q is ∼q → ∼p
+
+g.) The Converse and Inverse of a Conditional Statement
+The converse of p → q is q → p
+The inverse of p → q is ∼p → ∼q
+	1. A conditional statement and its converse are not logically equivalent.
+	2. A conditional statement and its inverse are not logically equivalent.
+	3. The converse and the inverse of a conditional statement are logically equivalent to each other.
+
+h.) Only If and the Biconditional
+p only if q
+
+It p and q are statements,
+p only if q means “if not q then not p,”
+or, equivalently,
+“if p then q.”
+
++---+---+-----+
+| p | q | p↔q |
++---+---+-----+
+| T | T | T   |
+| T | F | F   |
+| F | T | F   |
+| F | F | T   |
++---+---+-----+
+Shortcut:
+same -> on -> T
+different -> off -> F
+Opposite of XOR
+
+Order of Operations for Logical Operators
+~
+^ v (hen both are present, parentheses may be needed.)
+→
+↔
+
+i.) Necessary and Sufficient Conditions
+If r and s are statements:
+r is a sufficient condition for s means “if r then s.”
+r is a necessary condition for s means “if not r then not s.”
+
+9.) Valid and Invalid Arguments
+https://www.youtube.com/playlist?list=PL94c6yqxunA2ARgK1UqW4Qdk07TGThZS9
+Testing an algorithm for validity
+1.) Identify the premises and conclusion of the argument.
+2.) Construct a truth table showing the truth values of all the premises and the conclusion.
+3.) A row of the truth table in which all the premises are true is called a critical row.
+If there is a critical row in which the conclusion is false, then it is possible for an argument of the given form to have true premises and a false conclusion, and so the argument form is invalid. 
+If the conclusion in every critical row is true, then the argument form is valid.
+
+Example 2.3.1 Determining Validity or Invalidity
+<identity the critical rows and only check if these are true for the conclusion as well>
+
+Common valid arguments
+Modus Ponens
+p -> q
+p
+∴ q
+
+Modus Tollens
+p -> q
+~p
+∴ ~q
+
+Additional Valid Argument Forms
+1.) Generalization
+p
+∴ p ∨ q
+
+q
+∴ p ∨ q
+
+2.) Specialization
+p ∧ q
+∴ p
+
+p ∧ q
+∴ q
+
+3.) Elimination
+p ∨ q
+∼q
+∴ p
+
+p ∨ q
+∼p
+∴ q
+
+
+4.) Transitivity
+p → q
+q → r 
+∴ p → r
+
+5.) Proof by Division into Cases
+p ∨ q 
+p → r 
+q → r
+∴ r
+
+Fallacies
+1.) Converse Error
+p → q 
+q
+∴ p
+
+2.) Inverse Error
+p → q 
+∼p
+∴ ∼q
+
+3.) A Valid Argument with a False Premise and a False Conclusion
+
+4.) An Invalid Argument with True Premises and a True Conclusion
+
+Contradiction Rule
+∼p → c 
+∴ p
+
+Conjunction
+p
+q
+∴ p ^ q
+
+10.) Application: Digital Logic Circuits
+https://www.youtube.com/playlist?list=PL94c6yqxunA3eKDU4bSSqE8_8fRdMvdn2
+Open circuit
+Closed circuit
+Series
+Parallel
+Gates - NOT, AND, OR
+Combinational Circuit
+The Boolean Expression Corresponding to a Circuit
+The Circuit Corresponding to a Boolean Expression
+Finding a Circuit That Corresponds to a Given Input/Output Table
+Simplifying Combinational Circuits -> Equivalent Circuits
+NAND and NOR
+
+11.) Application: Number Systems and Circuits for Addition 
+https://www.youtube.com/playlist?list=PL94c6yqxunA2unH9SjUWwY_AHB6m7UBrZ
+Binary Representation
+Converting a Binary to a Decimal Number
+Converting a Decimal to a Binary Number
+Binary Addition and Subtraction
+Two’s Complements and the Computer Representation of Negative Integers
+Computer Addition with Negative Integers
+Hexadecimal Notation

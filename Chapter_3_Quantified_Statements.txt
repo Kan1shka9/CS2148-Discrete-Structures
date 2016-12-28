@@ -1,0 +1,43 @@
+Predicates and Quantified Statements I
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA1NjsQRq97f0ixQmEZd34mP
+Predicate
+A predicate is a sentence that contains a finite number of variables and becomes a statement when specific values are substituted for the variables. 
+
+Domain
+The domain of a predicate variable is the set of all values that may be substituted in place of the variable.
+
+Finding the Truth Set of a Predicate
+Let Q(n) be the predicate “n is a factor of 8.” Find the truth set of Q(n) if 
+a. the domain of n is the set Z+ of all positive integers
+b. the domain of n is the set Z of all integers
+Solution:-
+a.) {1,2,4,8}
+b.) (1,-1,2,-2,4,-4,8,-8)
+
+Truth set of Predicate
+
+Turning predicates into statements
+1.) Substitute values for variables
+2.) Universal Quantifier
+3.) Existential Quantifier
+
+Universal Conditional Statements
+
+Equivalent Forms of Universal and Existential Statements
+
+Implicit Quantification
+Using ⇒ and ⇔
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA1NM-I7q7lb7neo-GZ9NOhd
+Negations of Quantified Statements
+Negations of Universal Conditional Statements
+Vacuous Truth of Universal Statements
+Variants of Universal Conditional Statements
+Necessary and Sufficient Conditions, Only If
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA1jiQt0vaLKm_vSV6Y5-5Om
+Statements with Multiple Quantifiers
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA1ZEUUVhE4FY3JbLhy5xD4J
+Arguments with Quantified Statements

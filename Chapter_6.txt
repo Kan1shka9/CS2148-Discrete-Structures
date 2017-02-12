@@ -1,0 +1,144 @@
+Defining a set
+A = {x ∈ S | P(x)}
+S -> set
+x belongs to S / x is an element of S
+P(x) is a property that the elements of S may or may not satisfy
+
+Subset
+Proof
+A ⊆ B ⇔ ∀x, if x ∈ A then x ∈ B
+Disproof
+A ⊄ B ⇔ ∃x such that x ∈ A and x ⊄ B
+∃ -> there exists
+
+Proper Subset
+A is a proper subset of B if
+(1) A ⊆ B
+&
+(2) there is at least one element in B that is not in A.
+
+Fundamental proof technique of set theory is "element argument"
+
+Element Argument:
+The Basic Method for Proving That One Set Is a Subset of Another
+Let sets X and Y be given.To prove that X ⊆ Y
+1. suppose that x is a particular but arbitrarily chosen element of X
+2. show that x is an element of Y.
+
+<Read Up>
+Example 6.1.2 Proving and Disproving Subset Relations
+
+Set Equality
+Given sets A and B, A equals B, written A = B, if, and only if, every element of A is in B and every element of B is in A.
+Symbolically:
+A = B ⇔ A ⊆ B and B ⊆ A
+
+<Read Up>
+Example 6.1.3 Set Equality
+
+Venn Diagrams
+
+Operations on Sets
+A ∪ B = {x ∈ U | x ∈ A or x ∈ B}
+Set of all elements that are in at least one of A or B
+A ∩ B = {x ∈ U | x ∈ A and x ∈ B}
+Set of all elements that are common to both A and B
+B − A = { x ∈ U | x ∈ B and x ∉ A }
+Set of all elements that are in B and not A
+Ac = { x ∈ U | x ∉ A }
+Set of all elements in U that are not in A
+
+<Read Up>
+Example 6.1.5 Unions, Intersections, Differences, and Complements
+Difference
+
+Given real numbers a and b with a ≤ b:
+(a, b) = {x ∈ R | a < x < b}
+(a, b] = {x ∈ R | a < x ≤ b}
+[a, b] = {x ∈ R | a ≤ x ≤ b}
+[a, b) = {x ∈ R | a ≤ x < b}
+The symbols ∞ and −∞ are used to indicate intervals that are unbounded either on the right or on the left:
+(a,∞) = {x ∈ R | x > a}
+[a,∞) = {x ∈ R | x ≥ a}
+(−∞,b) = {x ∈ R | x < b}
+[−∞,b) = {x ∈ R | x ≤ b}
+
+<Read Up>
+Example 6.1.6 An Example with Intervals
+A complement
+
+=====================
+page 343
+=====================
+
+The Empty Set
+{x ∈ R |x^2 = −1} = ∅
+
+<Read Up>
+Example 6.1.8 A Set with No Elements
+D = {x ∈ R | 3 < x < 2}
+D = ∅
+
+Partitions of Sets
+Two sets are called disjoint if, and only if, they have no elements in common.
+A and B are disjoint
+A ∩ B = ∅
+
+<Read Up>
+Example 6.1.9 Disjoint Sets -> {1, 3, 5} ∩ {2, 4, 6} = ∅
+Example 6.1.10 Mutually Disjoint Sets -> A1 ∩ A2 ∩ A3 = ∅
+Example 6.1.11 Partitions of Sets -> Z = T0 ∪ T1 ∪ T
+
+Power Sets
+Given a set A, the power set of A, denoted P(A), is the set of all subsets of A
+
+<Read Up>
+Example 6.1.12 Power Set of a Set
+{x, y}
+find P({x, y})
+P({x, y}) = {∅, {x}, {y}, {x, y}}
+
+Cartesian Products
+(a,b) = (c,d) ⇔ a = c and b = d
+A1 × A2 ={ (a1,a2) | a1 ∈ A1 and a2 ∈ A2 }
+
+<Read Up>
+Example 6.1.13 Ordered n-tuples
+Example 6.1.14 Cartesian Products
+
+Properties Of Sets
+1.) Intersection
+(a) A ∩ B ⊆ A
+(b) A ∩ B ⊆ B
+
+2.) Union
+(a) A ⊆ A ∪ B
+(b) B ⊆ A ∪ B
+
+3.) Transitive
+if A ⊆ B and B ⊆ C, then A ⊆ C
+
+Order of Precedence
+A ∩ B ⊆ C means (A ∩ B) ⊆ C
+
+Let X and Y be subsets of a universal set U and suppose x and y are elements of U .
+1.) x ∈ X ∪ Y ⇔ x ∈ X or x ∈ Y
+2.) x ∈ X ∩ Y ⇔ x ∈ X and x ∈ Y
+3.) x ∈ X − Y ⇔ x ∈ X and x ∉ Y
+4.) x ∈ X complement ⇔ x ∉ X
+5.) (x,y) ∈ X × Y ⇔ x ∈ X and y ∈ Y
+
+<Read Up>
+Example 6.2.1 Proof of a Subset Relation
+
+Set Identities
+<see SetIdentities.jpeg>
+Absorption Laws
+Set Difference Law
+
+Proving Set Identities
+2 sets are equal -> each is a subset if each other
+Let sets X and Y be given.
+To prove that X = Y:
+1. Prove that X ⊆ Y.
+2. Prove that Y ⊆ X.

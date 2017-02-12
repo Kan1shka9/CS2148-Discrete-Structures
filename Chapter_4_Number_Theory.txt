@@ -1,0 +1,40 @@
+https://www.youtube.com/playlist?list=PL94c6yqxunA1roipCYagzJqCNYUIp9qtD
+Direct Proof and Counterexample I: Introduction
+Proving Existential Statements
+Disproving Universal Statements by Counterexample
+Proving Universal Statements
+	1.) The Method of Exhaustion
+	2.) Generalizing from the Generic Particular
+	
+https://www.youtube.com/playlist?list=PL94c6yqxunA3nbdO3gbOY-3wnYvy6EriJ
+Direct Proof and Counterexample II: Rational Numbers
+More on Generalizing from the Generic Particular
+Proving Properties of Rational Numbers
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA0xi0Tnm_-Vy81du6aFpgDz
+Direct Proof and Counterexample III: Divisibility
+Proving Properties of Divisibility
+The Unique Factorization of Integers Theorem
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA1GOzJmIZljk1oCPtqDyU9w
+Direct Proof and Counterexample IV: Division into Cases and the Quotient-Remainder Theorem
+div and mod
+Representations of Integers
+Absolute Value and the Triangle Inequality
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA0NffU11WALBJH7G3bOBkLN
+Direct Proof and Counterexample V: Floor and Ceiling
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA13OEqcowqbEn05DlZsmOPB
+Indirect Argument: Contradiction and Contraposition
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA0ozKlYVLgP1NN-x86eLfVn
+Indirect Argument: Two Classical Theorems
+Are There Infinitely Many Prime Numbers?
+
+https://www.youtube.com/playlist?list=PL94c6yqxunA1Z326_jTHWQ7h28MKctLT-
+Application: Algorithms
+An Algorithmic Language
+A Notation for Algorithms
+The Division Algorithm
+The Euclidean Algorithm

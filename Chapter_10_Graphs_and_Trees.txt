@@ -1,0 +1,232 @@
+degree of a vertex
+connectedness
+Euler and Hamiltonian circuits
+representation of graphs by matrices
+isomorphisms of graphs
+the relation between the number of vertices and the number of edges of a tree
+properties of rooted trees spanning trees
+shortest paths in graphs
+
+Graph
+Consists of 2 finite sets
+V(G) -> non empty set of vertices
+E(G) -> set of edges
+
+Vertices -> Endpoints of an edge
+
+Edge-Endpoint function
+Corresponding from edges to endpoints is called edge-endpoint function
+
+Loop
+Edge with one endpoint
+
+Parallel
+Distinct edges with the same endpoint
+
+Edge is said to <connect> its endpoints
+
+Adjacent
+2 vertices that are connected by an edge are called adjacent
+Two vertices are called adjacent if, and only if they are connected by an edge.
+
+Adjacent to Itself
+Vertex that is an endpoint of a loop
+
+Incident
+Edge is said to be incident on each of its endpoints
+
+Adjacent
+2 edges incident on the same endpoint
+
+Isolated
+Vertex on which no edges are incident
+
+Example 10.1.1 Terminology
+edges that are incident on v1 -> e1, e2, e3
+vertices that are adjacent to v1 -> v2, v3
+edges that are adjacent to e1 -> e2, e3, e4 -> tricky
+all loops -> e6, e7
+all parallel edges -> e2, e3
+all vertices that are adjacent to themselves -> v5, v6
+all isolated vertices -> v4
+
+Example 10.1.2 Drawing More Than One Picture for a Graph
+Example 10.1.3 Labeling Drawings to Show They Represent the Same Graph
+
+Directed Graph / Digraph
+Consists of 2 finite sets
+V(G) -> non empty set of vertices
+D(G) -> set of directed edges
+
+Example 10.1.4 Using a Graph to Represent a Network
+Example 10.1.5 Using a Graph to Represent the World Wide Web
+Example 10.1.6 Using a Graph to Represent Knowledge
+Example 10.1.7 Using a Graph to Solve a Problem: Vegetarians and Cannibals
+
+Simple Graph
+A simple graph is a graph that does not have any loops or parallel edges. 
+In a simple graph, an edge with endpoints v and w is denoted {v, w}.
+Example 10.1.8 A Simple Graph
+
+Complete Graph
+Exactly one edge connecting each pair of distinct vertices
+Example 10.1.9 Complete Graphs on n Vertices: K1, K2, K3, K4, K5
+
+Bipartite Graph and Complete Bipartite Graph
+<see notes>
+
+Subgraph
+Example 10.1.11 Subgraphs
+
+Degree of a vertex 
+It is the number of end segments of edges that “stick out of” the vertex. 
+We will show that the sum of the degrees of all the vertices in a graph is twice the number of edges of the graph.
+Degree of graph = 2 * Number of edges
+Example 10.1.12 Degree of a Vertex and Total Degree of a Graph
+
+Handshake lemma / Handshake theorem
+Theorem 10.1.1 The Handshake Theorem
+Corollary 10.1.2 -> The total degree of a graph is even
+Example 10.1.13 Determining Whether Certain Graphs Exist
+Example 10.1.14 Application to an Acquaintance Graph
+Proposition 10.1.3 In any graph there are an even number of vertices of odd degree
+Example 10.1.15 Applying the Fact That the Number of Vertices with Odd Degree Is Even
+
+Walks -> set of vertices and edges not distinct
+Trails -> vertices repeat (TV)
+Paths -> vertices and edges do not repeat
+Trails and Paths are walks
+
+Closed Walk -> initial and terminal are identical
+Circuit -> closed walk, at least 1 edge, no repeated edge
+Simple Circuit -> no repeated vertex except first and last
+<see notes>
+
+Connectedness
+Example 10.2.3 Connected and Disconnected Graphs
+Example 10.2.4 Connected Components
+
+Euler Circuits
+<see notes>
+Theorem 10.2.2 -> If a graph has an Euler circuit, then every vertex of the graph has positive even degree.
+Contrapositive Version of Theorem 10.2.2 -> If some vertex of a graph has odd degree, then the graph does not have an Euler circuit.
+Theorem 10.2.3 -> If a graph G is connected and the degree of every vertex of G is a positive even integer, then G has an Euler circuit.
+Example 10.2.6 Finding an Euler Circuit
+Theorem 10.2.4 -> A graph G has an Euler circuit if, and only if, G is connected and every vertex of G has positive even degree.
+Example 10.2.7 Finding an Euler Trail
+
+Hamiltonian Circuits
+<see notes>
+Example 10.2.8 Showing That a Graph Does Not Have a Hamiltonian Circuit
+Example 10.2.9 A Traveling Salesman Problem
+
+Matrix Representations of Graphs
+Matrices
+Example 10.3.1 Matrix Terminology
+Matrices and Directed Graphs
+Adjacent Matrix and Directed Graphs
+Example 10.3.2 The Adjacency Matrix of a Graph
+Example 10.3.3 Obtaining a Directed Graph from a Matrix
+Matrices and Undirected Graphs
+Example 10.3.4 Finding the Adjacency Matrix of a Graph
+Example 10.3.5 Symmetric Matrices
+Matrices and Connected Components
+Matrix Multiplication
+1.) Not commutative a.b not equal b.a
+2.) Associative a.(b.c) = (a.b).c
+Example 10.3.6 Multiplying a Row and a Column
+Example 10.3.7 Computing a Matrix Product
+Example 10.3.8 Associativity of Matrix Multiplication for 2×2 Matrices
+Identity matrix -> diagonal elements are 1
+Example 10.3.9 An Identity Matrix Acts as an Identity
+Example 10.3.10 Powers of a Matrix
+
+Counting Walks of Length N
+Finding the number of walks that have a given length -> Matrix Multiplication -> a22
+
+Isomorphic - same form
+Two graphs that are the same except for the labeling of their vertices and edges are called isomorphic
+Graphs may look dirrerent but there is one to one mapping of all vertices and edges
+Example 10.4.1 Showing That Two Graphs Are Isomorphic
+Theorem 10.4.1 Graph Isomorphism is an Equivalence Relation - reflexive, symmetric, transitive
+Example 10.4.2 Finding Representatives of Isomorphism Classes
+Theorem 10.4.2
+Example 10.4.3 Showing That Two Graph Are Not Isomorphic
+Example 10.4.4 Proof of Theorem 10.4.2, Part (3)
+Graph Isomorphism for Simple Graphs
+Example 10.4.5 Isomorphism of Simple Graphs
+
+Trees
+
+Circuit-free
+A graph is said to be circuit-free if, and only if, it has no circuits. 
+Tree
+A graph is called a tree if, and only if, it is circuit-free and connected. 
+Trivial Tree
+A trivial tree is a graph that consists of a single vertex. 
+Forest
+A graph is called a forest if, and only if, it is circuit-free and not connected.
+
+Example 10.5.1 Trees and Non-Trees
+
+Types of Trees
+1.) Decision Tree
+2.) Parse Tree -> grammer
+3.) Structure of Hydrocarbon Molecules
+
+Characterizing Trees
+Any tree that has more than one vertex has at least one vertex of degree 1.
+
+Terminal Vertex & Internal Vertex
+Example 10.5.5 Terminal and Internal Vertices
+
+Theorem 10.5.2 -> For any positive integer n, any tree with n vertices has n − 1 edge
+Example 10.5.6 Determining Whether a Graph Is a Tree
+Example 10.5.7 Finding Trees Satisfying Given Conditions -> Find all nonisomorphic trees with four vertices
+Theorem 10.5.4 -> For any positive integer n, if G is a connected graph with n vertices and n − 1 edges, then G is a tree.
+Example 10.5.8 A Graph with n Vertices and n−1 Edges That Is Not a Tree
+
+Rooted Trees
+Root
+Levels
+Height = levels - 1
+Parent
+Child
+Sibling -> elements on the same level
+descendants -> all elements elements below the vertex
+Example 10.6.1 Rooted Trees -> Read this
+
+Binary Trees
+A binary tree is a rooted tree in which every parent has at most two children. Each child in a binary tree is designated either a left child or a right child (but not both)
+
+Full binary tree is a binary tree in which each parent has exactly two children
+
+Example 10.6.2 Representation of Algebraic Expressions
+
+Theorem 10.6.1 -> If k is a positive integer and T is a full binary tree with k internal vertices, then T has a total of 2k + 1 vertices and has k + 1 terminal vertices.
+Example 10.6.3 Determining Whether a Certain Full Binary Tree Exists
+
+Theorem 10.6.2
+<see notes>
+Example 10.6.4 Determining Whether a Certain Binary Tree Exists -> Important
+
+Spanning Tree
+A spanning tree for a graph G is a subgraph of G that contains every vertex of G and is a tree.
+Proposition 10.7.1
+1.) Every connected graph has a spanning tree.
+2.) Any two spanning trees for a graph have the same number of edges.
+Example 10.7.1 Spanning Trees
+
+Weighted graph
+A weighted graph is a graph for which each edge has an associated positive real number weight
+
+Minimum Spanning Tree (Type of weighted graph)
+A minimum spanning tree for a connected weighted graph is a spanning tree that has the least possible total weight compared to all other spanning trees for the graph.
+
+2 methods of finding Minimum Spanning Tree
+Kruskal’s Algorithm
+https://www.youtube.com/watch?v=Y_bIT1nO9m0
+Prim’s Algorithm
+https://www.youtube.com/watch?v=grlAstO4vmI
+
+Example 10.7.4 Finding Minimum Spanning Trees

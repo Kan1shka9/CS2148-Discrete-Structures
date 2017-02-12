@@ -1,0 +1,97 @@
+Sample space
+Set of all possible outcomes of a random process or experiment
+
+Event
+Subset of a sample space
+
+Probability
+S -> Sample Space
+E -> Event in S
+P(E) = the number of outcomes in E / the total number of outcomes in S
+P(E) = N(E) / N(S)
+
+Example 9.1.1 Probabilities for a Deck of Cards
+Black face card -> 6
+Example 9.1.2 Rolling a Pair of Dice -> 36
+Example 9.1.3 The Monty Hall Problem -> switch
+https://www.youtube.com/watch?v=4Lb-6rxZxx0
+
+Counting the Elements of a List
+m and n are integers and m ≤ n
+The Number of Elements in a List -> n - m + 1
+
+Number of elements in 100 to 999
+999 - 100 + 1
+899 + 1
+900 elements
+
+Example 9.1.4 Counting the Elements of a Sublist
+Example 9.1.5 Application : Counting Elements of a One-Dimensional Array
+
+Tree Structure
+A tree structure is a useful tool for keeping systematic track of all possibilities in situa- tions in which events happen in order.
+Example 9.2.1 Possibilities for Tournament Play
+
+The Multiplication Rule
+Example 9.2.2 Number of Personal Identification Numbers (PINs)
+Example 9.2.3 The Number of Elements in a Cartesian Product
+Example 9.2.4 Number of PINs without Repetition
+Example 9.2.5 Number of Input/Output Tables for a Circuit with Two Input Signals
+Example 9.2.6 Counting the Number of Iterations of a Nested Loop
+
+When the Multiplication Rule Is Difficult or Impossible to Apply
+Example 9.2.7 A More Subtle Use of the Multiplication Rule
+
+Permutations
+A permutation of a set of objects is an ordering of the objects in a row
+abc acb cba bac bca cab
+n(n − 1)(n − 2) · · · 2·1 = n!
+Example 9.2.8 Permutations of the Letters in a Word
+Example 9.2.9 Permutations of Objects Around a Circle
+
+Permutations of Selected Elements
+P(n,r) = n! / (n-r)!
+Example 9.2.10 Evaluating r-Permutations
+
+Counting Elements of Disjoint Sets:
+
+The Addition Rule
+Example 9.3.1 Counting Passwords with Three or Fewer Letters
+Example 9.3.2 Counting the Number of Integers Divisible by 5
+
+The Difference Rule
+Example 9.3.3 Counting PINs with Repeated Symbols
+Example 9.3.4 Number of Python Identifiers of Eight or Fewer Characters
+Example 9.3.5 Internet Addresses
+
+The Inclusion/Exclusion Rule
+N(A ∪ B) = N(A) + N(B) − N(A ∩ B)
+N(A ∪ B ∪ C) = N(A) + N(B) + N(C) − N(A ∩ B) − N(A ∩ C) − N(B ∩ C) + N(A ∩ B ∩ C)
+Example 9.3.6 Counting Elements of a General Union
+Example 9.3.7 Counting the Number of Elements in an Intersection -> Tricky
+
+The Pigeonhole Principle
+A function from one finite set to a smaller finite set cannot be one-to-one: There must be a least two elements in the domain that have the same image in the co-domain.
+Example 9.4.1 Applying the Pigeonhole Principle
+Example 9.4.2 Finding the Number to Pick to Ensure a Result
+Example 9.4.3 Selecting a Pair of Integers with a Certain Sum
+
+Application to Decimal Expansions of Fractions
+When one integer is divided by another, it is the pigeonhole principle
+Function from an infinite set to a finite set cannot be one-to-one
+Example 9.4.4 The Decimal Expansion of a Fraction
+
+Generalized Pigeonhole Principle
+For any function f from a finite set X with n elements to a finite set Y with m elements and for any positive integer k, if k < n/m, then there is some y ∈ Y such that y is the image of at least k + 1 distinct elements of X .
+Example 9.4.5 Applying the Generalized Pigeonhole Principle
+Example 9.4.6 Using the Contrapositive Form of the Generalized Pigeonhole Principle -> Tricky
+
+=========Theorem -> 2
+
+Counting Subsets of a Set:
+
+Combinations
+nCr = n! / (n-r)! r!
+
+Ordered selection -> Permutation
+Unordered selection -> Combination

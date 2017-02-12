@@ -1,0 +1,71 @@
++--------------------------+-------------------------------------+-----------------------------------------------------------+
+|          Index           |                                     |                                                           |
++--------------------------+-------------------------------------+-----------------------------------------------------------+
+| Sequences                |                                     |                                                           |
+|                          | Summation Notation                  |                                                           |
+|                          | Product Notation                    |                                                           |
+|                          | Change of Variable                  |                                                           |
+|                          | Factorial and “n Choose r” Notation |                                                           |
+|                          | Sequences in Computer Programming   |                                                           |
+|                          |                                     | Decimal to Binary Conversion Using Repeated Division by 2 |
+| Mathematical Induction I |                                     |                                                           |
++--------------------------+-------------------------------------+-----------------------------------------------------------+
+
+1.) Sequences
+<Read up>
+Example 5.1.1 Finding Terms of Sequences Given by Explicit Formulas
+Example 5.1.2 An Alternating Sequence
+Example 5.1.3 Finding an Explicit Formula to Fit Given Initial Terms
+
+Summation Notation
+Summation -> Recursive definition -> Summation of ultimate and penultimate term
+<Read up>
+Example 5.1.4 Computing Summations
+Example 5.1.5 When the Terms of a Summation Are Given by a Formula
+Example 5.1.6 Changing from Summation Notation to Expanded Form
+Example 5.1.7 Changing from Expanded Form to Summation Notation
+Example 5.1.8 Evaluating a1, a2, a3, . . . , an for Small n -> Tricky when to apply
+Example 5.1.9 Separating Off a Final Term and Adding On a Final Term
+Example 5.1.10 A Telescoping Sum -> Simple expression
+
+Product Notation
+Product -> Recursive definition -> Product of ultimate and penultimate term
+<Read up>
+Example 5.1.11 Computing Products
+Theorem 5.1.1
+Example 5.1.12 Using Properties of Summation and Product
+
+Change of Variable
+<Read up>
+Example 5.1.13 Transforming a Sum by a Change of Variable
+Example 5.1.14 When the Upper Limit Appears in the Expression to Be Summed
+
+Factorial and “n Choose r” Notation
+<Read up>
+Example 5.1.15 The First Ten Factorials
+Example 5.1.16 Computing with Factorials
+Example 5.1.17 Computing n r by Hand
+
+n choose r -> nCr
+combinations
+binomial coefficients
+
+Sequences in Computer Programming
+one-dimensional arrays
+<Read up>
+Example 5.1.18 Dummy Variable in a Loop -> Tricky
+
+Application: Algorithm to Convert from Base 10 to Base 2 Using Repeated Division by 2
+Example 5.1.19 Converting from Decimal to Binary Notation Using Repeated Division by 2
+Algorithm 5.1.1 Decimal to Binary Conversion Using Repeated Division by 2
+
+2.) Mathematical Induction I
+<Read up>
+Example 5.2.1 Sum of the First n Integers
+Example 5.2.2 Applying the Formula for the Sum of the First n Integers
+Example 5.2.3 Sum of a Geometric Sequence
+
+Proving an Equality
+
+Deducing Additional Formulas
+Example 5.2.4 Applying the Formula for the Sum of a Geometric Sequence
